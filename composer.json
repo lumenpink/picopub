@@ -1,0 +1,22 @@
+{
+    "name": "lumenpink/indiemachine",
+    "description": "Indieweb php kit",
+    "type": "project",
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "Lumenpink\\Indiemachine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lumen Pink",
+            "email": "hi@lumen.pink"
+        }
+    ],
+    "require": {
+        "mf2/mf2": "^0.5.0",
+        "p3k/micropub": "^0.0.3",
+        "masterminds/html5": "^2.8"
+    }
+}
